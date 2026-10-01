@@ -1,0 +1,448 @@
+{
+ "bench": "tanker",
+ "adapter": "adapters.mine:MySolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "tanker-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 40,
+   "digest": "6585d96562746073",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.003968,
+     7383
+    ],
+    [
+     0.004846,
+     7016
+    ],
+    [
+     0.006933,
+     6931
+    ],
+    [
+     0.008664,
+     6821
+    ],
+    [
+     0.010182,
+     6592
+    ],
+    [
+     0.021864,
+     6506
+    ],
+    [
+     0.023778,
+     6495
+    ]
+   ],
+   "checkpoint_costs": [
+    6495,
+    6495,
+    6495,
+    6495
+   ],
+   "final_cost": 6495,
+   "accepted": 18,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.449
+  },
+  {
+   "name": "tanker-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 70,
+   "digest": "4339088008a4f82f",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.009481,
+     12386
+    ],
+    [
+     0.010374,
+     12270
+    ],
+    [
+     0.013156,
+     11330
+    ],
+    [
+     0.016665,
+     10732
+    ],
+    [
+     0.020626,
+     10531
+    ],
+    [
+     0.024458,
+     10528
+    ],
+    [
+     0.037492,
+     10431
+    ],
+    [
+     0.0415,
+     10288
+    ],
+    [
+     0.045591,
+     10218
+    ],
+    [
+     0.049463,
+     10152
+    ],
+    [
+     0.05362,
+     10055
+    ],
+    [
+     0.058156,
+     9983
+    ]
+   ],
+   "checkpoint_costs": [
+    9983,
+    9983,
+    9983,
+    9983
+   ],
+   "final_cost": 9983,
+   "accepted": 43,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.536
+  },
+  {
+   "name": "tanker-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 110,
+   "digest": "98b516fe635c2ae2",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.028215,
+     14246
+    ],
+    [
+     0.034635,
+     14059
+    ],
+    [
+     0.041888,
+     13324
+    ],
+    [
+     0.047847,
+     12827
+    ],
+    [
+     0.054564,
+     12603
+    ],
+    [
+     0.060705,
+     12550
+    ],
+    [
+     0.066425,
+     12498
+    ],
+    [
+     0.269716,
+     12490
+    ]
+   ],
+   "checkpoint_costs": [
+    12490,
+    12490,
+    12490,
+    12490
+   ],
+   "final_cost": 12490,
+   "accepted": 44,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.683
+  },
+  {
+   "name": "tanker-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 150,
+   "digest": "13345f098aa96a56",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.045225,
+     18785
+    ],
+    [
+     0.054767,
+     18310
+    ],
+    [
+     0.06436,
+     17673
+    ],
+    [
+     0.07367,
+     16941
+    ],
+    [
+     0.081761,
+     16751
+    ],
+    [
+     0.089853,
+     16704
+    ],
+    [
+     0.098271,
+     16638
+    ],
+    [
+     0.106865,
+     16522
+    ],
+    [
+     0.115235,
+     16468
+    ],
+    [
+     0.123679,
+     16415
+    ],
+    [
+     0.162414,
+     16100
+    ],
+    [
+     0.171017,
+     15972
+    ],
+    [
+     0.181309,
+     15958
+    ],
+    [
+     0.190149,
+     15921
+    ],
+    [
+     0.199458,
+     15835
+    ],
+    [
+     0.536614,
+     15655
+    ],
+    [
+     0.545344,
+     15616
+    ],
+    [
+     0.555088,
+     15515
+    ],
+    [
+     0.565718,
+     15469
+    ],
+    [
+     0.573815,
+     15446
+    ],
+    [
+     0.581996,
+     15391
+    ],
+    [
+     0.589926,
+     15359
+    ],
+    [
+     0.598507,
+     15358
+    ]
+   ],
+   "checkpoint_costs": [
+    15835,
+    15358,
+    15358,
+    15358
+   ],
+   "final_cost": 15358,
+   "accepted": 66,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.976
+  },
+  {
+   "name": "tanker-05",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 60,
+   "digest": "6bf5303dc8dbb2e0",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.006861,
+     11940
+    ],
+    [
+     0.009632,
+     11090
+    ],
+    [
+     0.012119,
+     10594
+    ],
+    [
+     0.014228,
+     10505
+    ],
+    [
+     0.016393,
+     10433
+    ],
+    [
+     0.019656,
+     10431
+    ],
+    [
+     0.086315,
+     10425
+    ]
+   ],
+   "checkpoint_costs": [
+    10425,
+    10425,
+    10425,
+    10425
+   ],
+   "final_cost": 10425,
+   "accepted": 37,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.453
+  },
+  {
+   "name": "tanker-06",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 120,
+   "digest": "2d27d5c5056ab14e",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.018384,
+     23996
+    ],
+    [
+     0.019459,
+     23559
+    ],
+    [
+     0.025877,
+     22456
+    ],
+    [
+     0.031127,
+     21823
+    ],
+    [
+     0.037157,
+     21666
+    ],
+    [
+     0.042602,
+     21553
+    ],
+    [
+     0.047789,
+     21511
+    ],
+    [
+     0.053261,
+     21497
+    ],
+    [
+     0.059687,
+     21449
+    ],
+    [
+     0.064846,
+     21448
+    ],
+    [
+     0.070107,
+     21446
+    ]
+   ],
+   "checkpoint_costs": [
+    21446,
+    21446,
+    21446,
+    21446
+   ],
+   "final_cost": 21446,
+   "accepted": 79,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.833
+  }
+ ],
+ "points": {
+  "scores": {
+   "tanker-01": 0.8682170542635659,
+   "tanker-02": 0.8242857142857143,
+   "tanker-03": 0.8304418541610192,
+   "tanker-04": 0.8616146752991957,
+   "tanker-05": 0.8967391304347827,
+   "tanker-06": 0.8415391969407267
+  },
+  "family_means": {
+   "uniform": 0.8461398245023738,
+   "clustered-tight": 0.8691391636877547
+  },
+  "robustness_halved": false,
+  "quality": 59.766438962825056,
+  "robustness": 17.382783273755095,
+  "engineering": 10.0,
+  "total": 87.14922223658016
+ }
+}
